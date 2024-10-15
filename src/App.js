@@ -1,9 +1,10 @@
-import './App.css';
+
+import { ProfileIndexComponent } from './components/profile-index/profile-index';
 
 function App() {
   return (
-    <div >
-      <h1>This site is deployed!</h1>
+    <div className='container'>
+      <ProfileIndexComponent/>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+
+.homebg{
+    background-color:rgb(242, 236, 244);
+}
+
+.devImage{
+    border: 1px solid rgb(236, 227, 227);
+    border-radius: 50%;
+    padding: 5px;
+    height: 10%;
+    width: 10%;
+    
+}
