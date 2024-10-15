@@ -11,6 +11,12 @@ import node from './node.png';
 import mongodb from './mongodb.png';
 import mysql from './mysql.png';
 import asp from './asp.png';
+import typescript from './typescript.png';
+import lit from './lit.png';
+import fast from './fast-logo.png';
+import git from './git.png';
+import electron from './electron.png';
+import redux from './redux.png';
 
 export function ProfileAboutComponent(){
 
@@ -26,14 +32,14 @@ export function ProfileAboutComponent(){
             <div className="d-flex justify-content-center align-items-center mt-5">
                 <div className="w-75">
                     <p>
-                        <span className='bi bi-balloon-heart-fill'/> I'm @pro_doubts a professional full-stack-web developer. I have been learning and exploring in IT field science last 6 year's with various IT related academic courses and other resources. I learned alot from the academics and by exploring myself about the IT technologies. I love to work as web developer and it is one of my hobbies. I always like to create something new and innovative which can solve any real time problem's in technology.
+                        <span className='bi bi-balloon-heart-fill'/> I'm @pro_doubts a professional software developer. I have been learning and exploring in IT field from past 7 year's with various IT related academic courses and other resources. I learned alot from the academics and exploring by myself about various new technologies. I always love to develop software solutions for any real world problem. These are some of my key skill's...
                     </p>
                 </div>
             </div>
 
             <div className="d-flex justify-content-center align-items-center mt-5">
                 <div className="w-75">
-                    <h6 className='text-center'><span className='bi bi-link'/> My key skills on technologies...</h6>
+                    <h6 className='text-center'><span className='bi bi-link'/> I have a good knowledge on these technologies...</h6>
                     <div className='w-100 text-center mt-5'>
                         <span className='me-4'>
                             <img src={reactImg} alt='reactimg' className='techImg'/>
@@ -42,7 +48,7 @@ export function ProfileAboutComponent(){
                             <img src={javaScript} alt='reactimg' className='techImg'/>
                         </span>
                         <span className='me-4'>
-                            <img src={bootstrap} alt='reactimg' className='techImg'/>
+                            <img src={typescript} alt='reactimg' className='techImg'/>
                         </span>
                         <span className='me-4'>
                             <img src={html} alt='reactimg' className='techImg'/>
@@ -50,8 +56,23 @@ export function ProfileAboutComponent(){
                         <span className='me-4'>
                             <img src={css} alt='reactimg' className='techImg'/>
                         </span>
+                        <span className='me-4'>
+                            <img src={lit} alt='reactimg' className='techImg'/>
+                        </span>
+                        <span className='me-4'>
+                            <img src={fast} alt='reactimg' className='techImg'/>
+                        </span>
+                        <span className='me-4'>
+                            <img src={bootstrap} alt='reactimg' className='techImg'/>
+                        </span>
                     </div>
                     <div className='w-100 mt-4 text-center  '>
+                        <span className='me-4'>
+                            <img src={electron} alt='reactimg' className='techImg'/>
+                        </span>
+                        <span className='me-4'>
+                            <img src={redux} alt='reactimg' className='techImg'/>
+                        </span>
                         <span className='me-4'>
                             <img src={node} alt='reactimg' className='techImg'/>
                         </span>
@@ -68,6 +89,9 @@ export function ProfileAboutComponent(){
                         </span>
                         <span className='me-4'>
                             <img src={mysql} alt='reactimg' className='techImg'/>
+                        </span>
+                        <span className='me-4'>
+                            <img src={git} alt='reactimg' className='techImg'/>
                         </span>
                     </div>
                 </div>

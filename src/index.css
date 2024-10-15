@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: white;
+  background: linear-gradient(white, gray);
+  /* height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 20%, rgba(0, 0, 0, 0.9) 80%),
+                url('https://www.transparenttextures.com/patterns/stardust.png');
+    background-size: cover;
+    background-position: center;
+    position: relative; */
 }
 
 code {
