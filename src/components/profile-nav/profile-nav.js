@@ -43,7 +43,7 @@ export function ProfileNavComponent() {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex" role="login">
+            <form className="d-flex">
               <Link to="blog" className="btn">
                 <span className="bi bi-chat-square-quote" /> Blog
               </Link>
@@ -51,7 +51,6 @@ export function ProfileNavComponent() {
           </div>
         </div>
       </nav>
-      <div></div>
     </div>
   );
 }

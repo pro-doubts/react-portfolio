@@ -5,7 +5,7 @@ export function ProfileFooterComponent(){
 
     return(
         <div className="footer-bg p-4 text-center">
-           <a href='#' className='text-decoration-none text-dark'><span className="bi bi-braces"/> Pro Doubts</a>
+           <h5 className='text-decoration-none text-dark'><span className="bi bi-braces"/> Pro Doubts</h5>
            <p>&copy; Copyright all rights reserved 2023.</p>
            <div className='justify-content-around d-flex'>
                 <span className='bi bi-instagram'> @pro_doubts</span>

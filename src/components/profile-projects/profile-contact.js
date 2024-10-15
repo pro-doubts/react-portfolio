@@ -25,9 +25,9 @@ export function ProfileProjectComponent() {
               </dl>
             </div>
             <div className="card-footer text-center">
-              <a href="#" className="btn btn-sm btn-outline secondary">
+              <h5 className="btn btn-sm btn-outline secondary">
                 Visit site <sapn className="bi bi-arrow-up-right" />
-              </a>
+              </h5>
             </div>
           </div>
 
@@ -49,9 +49,9 @@ export function ProfileProjectComponent() {
               </dl>
             </div>
             <div className="card-footer text-center">
-              <a href="#" className="btn btn-sm btn-outline secondary">
+              <h5 className="btn btn-sm btn-outline secondary">
                 Visit site <sapn className="bi bi-arrow-up-right" />
-              </a>
+              </h5>
             </div>
           </div>
 
@@ -72,9 +72,9 @@ export function ProfileProjectComponent() {
               </dl>
             </div>
             <div className="card-footer text-center">
-              <a href="#" className="btn btn-sm btn-outline secondary">
+              <h5 className="btn btn-sm btn-outline secondary">
                 Visit site <sapn className="bi bi-arrow-up-right" />
-              </a>
+              </h5>
             </div>
           </div>
         </div>
@@ -99,14 +99,14 @@ export function ProfileProjectComponent() {
                 <tr>
                     <td>1</td>
                     <td>Fake store API Project</td>
-                    <td>A project for fetching data from open-source api <a href="#" className="text-decoration-none">(Fake Store API)</a> and representing it on web-site</td>
+                    <td>A project for fetching data from open-source api <h5 className="text-decoration-none">(Fake Store API)</h5> and representing it on web-site</td>
                     <td className="text-center"><span className="btn btn-sm btn-outline-secondary">Visit <span className="bi bi-arrow-up-right"/></span></td>
                 </tr>
 
                 <tr>
                     <td>2</td>
                     <td>NASA API Project</td>
-                    <td>A project for fetching data from open-source api <a href="#" className="text-decoration-none">(NASA API Data)</a> and representing it on web-site</td>
+                    <td>A project for fetching data from open-source api <h5 className="text-decoration-none">(NASA API Data)</h5> and representing it on web-site</td>
                     <td className="text-center"><span className="btn btn-sm btn-outline-secondary">Visit <span className="bi bi-arrow-up-right"/></span></td>
                 </tr>
 

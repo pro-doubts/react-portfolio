@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ProfileAboutComponent } from "../profile-about/profile-about";
 import { ProfileContactComponent } from "../profile-contact/profile-contact";
 import { ProfileFooterComponent } from "../profile-footer/profile-footer";
