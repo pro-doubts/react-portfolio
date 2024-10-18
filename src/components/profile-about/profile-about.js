@@ -21,7 +21,7 @@ import redux from './redux.png';
 export function ProfileAboutComponent(){
 
     return(
-        <div>
+        <div className='user-select-none'>
             <div className="d-flex justify-content-center align-items-center mt-5">
                 <div>
                     <div className='text-center'><img src={devImg} className='devImage' alt='devlogo'/> <h6 className='text-center'>@pro_doubts</h6></div>
@@ -39,7 +39,7 @@ export function ProfileAboutComponent(){
 
             <div className="d-flex justify-content-center align-items-center mt-5">
                 <div className="w-75">
-                    <h6 className='text-center'><span className='bi bi-link'/> I have a good knowledge on these technologies...</h6>
+                    <h6 className='text-center'><span className='bi bi-link'/> These are my major tech stack's...</h6>
                     <div className='w-100 text-center mt-5'>
                         <span className='me-4'>
                             <img src={reactImg} alt='reactimg' className='techImg'/>
@@ -100,9 +100,9 @@ export function ProfileAboutComponent(){
             <div className="d-flex justify-content-center align-items-center mt-5">
                 <div>
                     <h6 className='text-center'><span className='bi bi-link'/> You can find more about me here...</h6>
-                    <div className='border border-1 rounded mt-4 p-3 text-center'><img src={resume} alt='resume' style={{width:'80%'}}/></div>
+                    <div className='border border-1 rounded mt-4 p-3 text-center'><img src={resume} alt='resume' style={{width:'100%'}}/></div>
                     <div className='text-center mt-4 mb-4'>
-                        <a href='https://pro-doubts.github.io/Resume/Resume.pdf' className='btn btn-sm btn-outline-secondary'>Download Resume/CV <span className='bi bi-download'/></a>
+                        <a href='https://pro-doubts.github.io/Resume/Resume.pdf' className='btn btn-sm btn-outline-dark'>Download Resume <span className='bi bi-download'/></a>
                     </div>
                 </div>
             </div>

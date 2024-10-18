@@ -4,14 +4,14 @@ import devImg from './coding.png';
 export function ProfileHomeComponent(){
 
     return(
-        <div className='mt-5 mb-5'>
+        <div className='mt-5 mb-5 user-select-none'>
             <div className='text-center'>
                 <img src={devImg} className='devImage' alt='devlogo'/> 
                 <h6>@pro_doubts</h6>
                 
                 <div className='mt-4'>
-                    <Link to="contact" className='btn btn-sm btn-outline-secondary me-4'>Get in touch</Link>
-                    <Link to="about" className='btn btn-sm btn-outline-secondary'>Resume/CV</Link>
+                    <Link to="contact" className='btn btn-sm btn-outline-dark me-4'>Get in touch</Link>
+                    <Link to="about" className='btn btn-sm btn-outline-dark'>Resume/CV</Link>
                 </div>
             </div>
             <div className='d-flex justify-content-center align-items-center text-center w-100 mt-5'>
@@ -19,7 +19,7 @@ export function ProfileHomeComponent(){
             </div>
             <div className='align-items-center justify-content-center d-flex'>
                 <div className='d-flex justify-content-left align-items-center text-left w-50 mt-5'>
-                    <span className='bi bi-balloon-heart-fill'> Hey! welcome to my profile, I'm @pro_doubts i'm a software developer and i've been learning and exploring my skill's sience last 7 year's in this field.
+                    <span className='bi bi-balloon-heart-fill'> Hey! welcome to my profile, I'm @pro_doubts i'm a software developer and i've been learning and exploring my skill's from past 7 year's in this field.
                     I like to work with some innovative projects where i can learn something new and also can improve my skills. I always try to improve my skill by learning and exploring new things from the various resources and try to solve some real world
                     softwrae problems. In this field explored a lot of content related to <strong>computer science</strong> and <strong>programming</strong>.
                     </span>

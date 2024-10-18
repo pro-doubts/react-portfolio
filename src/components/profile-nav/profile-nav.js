@@ -32,14 +32,14 @@ export function ProfileNavComponent() {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="contact" className="btn me-3">
-                  Contact
-                </Link>
-              </li>
               <li className="nav-item dropdown">
                 <Link to="project" className="btn me-3">
                   Projects
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="contact" className="btn me-3">
+                  Contact
                 </Link>
               </li>
             </ul>
